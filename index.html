@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+
+       <title>Divide PDF Pages</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+
+     
+</head>
+
+<body>
+ 
+<div class="card">
+  
+  <input type="url" id="pdf-url" class="url-input" placeholder="Enter PDF URL">
+  
+  <button id="download-button">Download PDF</button>
+  <label for="pdf-file" class="choose-btn">Choose File</label>
+  <input type="file" hidden id="pdf-file" accept=".pdf">
+  <button id="divide-button">Divide PDF</button>
+</div>
+
+
+      <script src="script.js"></script>
+</body>
+
+</html>
